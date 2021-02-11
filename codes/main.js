@@ -1,11 +1,19 @@
 $(document).ready(function (event) {
 
-
-	$("#share-btn-jeamshiv button").click(function (event) {
+		//alert("hi there");
 		var temp_title = document.title;
-		title = temp_title.replace(/ /g, '+');
+		titles = temp_title.replace(/ /g, '+');
+		var link = window.location.href;
 
-		window.location.href=`whatsapp://send?text=window.location.href ${title}`;
-	})
+		$(".wp-shareshiv").click(function (event) {
+		if($(window).width()> 768){
+		window.location.href=`https://api.whatsapp.com/send?text=${link} %0a${title}`;} else{window.location.href=`whatsapp://send?text=${link} %0a${titles}`;}
+		});
 
-});//ready end
+
+
+		$(".fb-shareshiv").click(function(event){
+			window.location.href=`https://www.facebook.com/sharer/sharer.php?u=${link}`;
+		});
+
+	});//ready
