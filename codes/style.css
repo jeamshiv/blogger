@@ -1,9 +1,11 @@
 	.wp-shareshiv, .fb-shareshiv{
 			margin: 0px 2px 5px;
-			padding: 5px !important;
-			border-radius: 0px !important;
+			padding: 8px 14px !important;
+			max-width: 220px;
+			min-height: 40px;
 			overflow: hidden;
 			transition: all ease-in-out 0.3s !important;
+			box-shadow: 0px 5px 15px 0px rgba(93,143,241,71%);
 		}
 	.wp-shareshiv:hover, .fb-shareshiv:hover{
 			margin-top: -10px;
