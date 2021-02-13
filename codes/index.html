@@ -34,6 +34,53 @@
 
 	<button class="btn btn-success wp-shareshiv">Share this Whastapp</button>
 	<button class="btn btn-primary fb-shareshiv">Share on facebook</button>
+
+
+	<table class="table table-hover table-responsive">
+  <thead>
+  	<tr>
+  	<th colspan="4"><h3 class="text-center">CSS Color Codes Secret</h3></th>  		
+  	</tr>
+    <tr>
+      <th>RGB</th>
+      <th>HEX(3)</th>
+      <th>HEX(6)</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>255,255,255</td>
+      <td>#FFF</td>
+      <td>#FFFFFF</td>
+      <td>White</td>
+    </tr>
+    <tr>
+      <td>0,0,0</td>
+      <td>#000</td>
+      <td>#000000</td>
+      <td>Black</td>
+    </tr>
+    <tr>
+      <td>255,0,0</td>
+      <td>#F00</td>
+      <td>#FF0000</td>
+      <td>Red</td>
+    </tr>
+    <tr>
+      <td>0,255,0</td>
+      <td>#0F0</td>
+      <td>#00FF00</td>
+      <td>Green</td>
+    </tr>
+    <tr>
+      <td>0,0,255</td>
+      <td>#00F</td>
+      <td>#0000FF</td>
+      <td>Blue</td>
+    </tr>
+  </tbody>
+</table>
 	
 
 </body>
@@ -46,7 +93,7 @@
 	//alert(window.location.href+ v);
 
 
-	$(document).ready(function (event) {
+	/*$(document).ready(function (event) {
 
 		alert("hi there");
 		var temp_title = document.title;
@@ -56,15 +103,13 @@
 		$(".wp-shareshiv").click(function (event) {
 		if($(window).width()> 768){
 		window.location.href=`https://api.whatsapp.com/send?text=${link} %0a${title}`;} else{window.location.href=`whatsapp://send?text=${link} %0a${titles}`;}
-		});//wp-shareshiv end
-
-
+		});
 
 		$(".fb-shareshiv").click(function(event){
 			window.location.href=`https://www.facebook.com/sharer/sharer.php?u=${link}`;
-		});//fb-shareshiv end
+		});
 
-	});//ready end
+	});*///ready end
 
 </script>
 

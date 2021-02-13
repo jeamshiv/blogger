@@ -6,7 +6,7 @@ $(document).ready(function (event) {
 		var link = window.location.href;
 
 		$(".wp-shareshiv").click(function (event) {
-		window.location.href=`https://api.whatsapp.com/send?text=${link} %0a${title}`;
+		window.location.href=`whatsapp://send?text=${link} %0a${titles}`;
 		});
 
 		$(".fb-shareshiv").click(function(event){
