@@ -41,4 +41,10 @@ $(document).ready(function (event) {
 			window.location.href=`https://www.facebook.com/sharer/sharer.php?u=${link}`;
 		});
 
+
+		//Browse More button
+		$("#browse_more").click(function (event) {
+			$("#Blog1 .row .col-md-4").css("display", "block");
+		});
+
 	});//ready
