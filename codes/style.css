@@ -24,6 +24,15 @@
 /*-----code bubbles end-----*/
 
 
+/* ----code for movedelement----*/
+
+.gt3_moved_element{-webkit-animation:movedelement 5s linear infinite;animation:movedelement 5s linear infinite}
+
+@-webkit-keyframes movedelement{0%{-webkit-transform:translate(0);transform:translate(0)}25%{-webkit-transform:translate(10px,10px);transform:translate(10px,10px)}50%{-webkit-transform:translate(5px,5px);transform:translate(5px,5px)}75%{-webkit-transform:translate(10px,-5px);transform:translate(10px,-5px)}to{-webkit-transform:translate(0);transform:translate(0)}}@keyframes movedelement{0%{-webkit-transform:translate(0);transform:translate(0)}25%{-webkit-transform:translate(10px,10px);transform:translate(10px,10px)}50%{-webkit-transform:translate(5px,5px);transform:translate(5px,5px)}75%{-webkit-transform:translate(10px,-5px);transform:translate(10px,-5px)}to{-webkit-transform:translate(0);transform:translate(0)}}
+
+ /*---- movedelement end ----*/
+
+
 
 
 
