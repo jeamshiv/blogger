@@ -64,4 +64,12 @@ $(document).ready(function (event) {
 			$("#Blog1 .row .col-md-4").css("display", "block");
 		});
 
+	//code for mobile
+	if($(window).width()< 768){
+
+		$("section .banner").css("background-img", "url('https://github.com/jeamshiv/blogger/blob/main/img/backgd.png?raw=true')");
+
+	}
+
+
 	});//ready
