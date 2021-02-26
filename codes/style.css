@@ -275,7 +275,14 @@ div.code-toolbar > .toolbar span:focus {
 
 
 
-
+	.stylish_h2{
+		font-size: 52px;
+		font-weight: 800;
+		background-size: cover;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: rgba(0,0,0,0);
+		background-image: linear-gradient(75deg,#ff4969,#fc9d44 80%);
+	}
 
 
 	.wp-shareshiv, .fb-shareshiv{
