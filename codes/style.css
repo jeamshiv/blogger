@@ -275,8 +275,7 @@ div.code-toolbar > .toolbar span:focus {
 
 
 
-	.stylish_h2{
-		font-size: 52px;
+	.stylish_heading{
 		font-weight: 800;
 		background-size: cover;
 		-webkit-background-clip: text;
